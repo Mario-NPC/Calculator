@@ -26,7 +26,7 @@ npm start
 
 #### Estructura de componentes:
 -------------------------------
-  *Component:
+  * Component:
     * Container: 
       En este caso si tuvieramos redux en la aplicacion tendriamos un archivo extra que se llame .container, el cual seria el encargado de pasarle propiedades de redux al componente, con el fin de que este pueda usar el estado global de la aplicacion.
     * Component:
