@@ -1,3 +1,7 @@
+// aca estamos creando una funcion que genera una lista con un valor y una funcion
+// la funcion se la pedimos a content, ¿Pero para que le pedimos esa funcion?
+// simple, nosotros no le podemos pedir que setee un numero en el estado si no tenemos su funcion dentro
+// de los objetos, asi que toca pedirle que nos pase setNum como callback, asi puede usar la funcion para cambiar el estado.
 export const generateNumberButtons = (setNum) => {
   return [
     {
